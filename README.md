@@ -37,3 +37,33 @@ npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
 npm install tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm install react-router-dom
+
+## 📁 Project File Structure
+
+The project follows a modular and organized file structure to keep components, pages, and assets clean and maintainable.
+
+Modern_Ecomm/
+├── public/                   # Static assets
+│   └── index.html
+├── src/
+│   ├── components/           # Reusable components (OrderCard, Navbar, etc.)
+│   ├── pages/                # Pages like Home, Orders
+│   ├── App.jsx               # Root app component & routes
+│   └── index.js              # Entry point
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── README.md
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/prashantklp/Modern_Ecomm.git
+cd Modern_Ecomm
+
